@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WT Lab-3 - Mess Preference</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+        <h2>Mess Preference Form</h2>
+    </center>
+    <form id="preferenceform">
+        <label for="name">Enter your Name:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="class">Class:</label><br>
+        <input type="radio" id="IoT" value="B.Tech IoT" name="class">
+        <label for="IoT">B.Tech IoT</label><br>
+        <input type="radio" id="Aids" value="B.Tech AI&DS" name="class">
+        <label for="Aids">B.Tech AI&DS</label><br>
+        <input type="radio" id="cyber" value="B.Tech CyberSecurity" name="class">
+        <label for="cyber">B.Tech CyberSecurity</label><br>
+        <input type="radio" id="bcom" value="B.Com" name="class">
+        <label for="bcom">B.Com</label><br><br>
+
+        <label for="year">Year:</label><br>
+        <input type="radio" id="1st" name="year">
+        <label for="1st">1st Year</label><br>
+        <input type="radio" id="2nd" name="year">
+        <label for="2nd">2nd Year</label><br>
+        <input type="radio" id="3rd" name="year">
+        <label for="3rd">3rd Year</label><br><br>
+
+        <label for="mess">Choose your Mess Preference:</label>
+        <select name="mess" id="mess">
+            <option>North Indian Mess</option>
+            <option>South Indian Mess</option>
+            <option>Continental Mess</option>
+            <option>Hostel Mess</option>
+            <option>Pay as you go (Outside Mess)</option>
+        </select><br><br>
+        <input type="submit" id="submit">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
