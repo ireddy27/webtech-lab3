@@ -1,0 +1,51 @@
+body {
+    background-color: #f2a8a8; 
+}
+
+#preferenceform {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #db9370; 
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ee7b68; 
+}
+
+label[for="IoT"],
+label[for="Aids"],
+label[for="cyber"],
+label[for="bcom"],
+label[for="1st"],
+label[for="2nd"],
+label[for="3rd"] {
+    margin-right: 15px;
+}
+
